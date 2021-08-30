@@ -1,16 +1,71 @@
+<style type="text/css">
+
+    .group_name {
+        color: #ff6600;
+        font-size: 1.5rem;
+        /*font-weight: bold;*/
+    }
+
+    .group_name img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .group_desc {
+        font-size: 1rem;
+        padding-left: 1rem;
+        color: #ff6600;
+    }
+
+    .group_list{
+        padding-left: 1.5rem;
+    }
+    .group_list li {
+        list-style: none;
+        padding-top: 1.5rem;
+        padding-right: 2rem;
+    }
+
+    .group_member {
+        display: flex;
+    }
+
+    .group_memeber-pic {
+        width: 7rem;
+        height: 9rem;
+    }
+
+    .group_member-info {
+        flex-grow: 1;
+        font-size: 0.9rem;
+        padding-left: 1.2rem;
+    }
+
+    .group_member-name{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+</style>
+
 <div>
 
-    <p><img src="/image/image_gallery?uuid=cfbfa90f-9348-48f8-b0b7-a69885c0dc89"/>Machine Learning Group</p>
-    <p>Mainly focuses on characterizing and modeling of sparse one-dimensional vectors, two-dimensional matrices,
+    <p class="group_name"><img
+            src="/image/image_gallery?uuid=cfbfa90f-9348-48f8-b0b7-a69885c0dc89&amp;groupId=13931&amp;t=1349672833682"/>Machine
+        Learning
+        Group</p>
+    <p class="group_desc">Mainly focuses on characterizing and modeling of sparse one-dimensional vectors,
+        two-dimensional matrices,
         high-dimensional tensors and their related computation and real-word applications. The major research topics
         include: noncovex regularization theory, T-sparsity modeling, sparse SAR Imaging, low-rank decompositions with
         applications in information processing.</p>
-    <ul>
+
+    <ul class="group_list">
         <li>
-            <div>
-                <img src="/image/image_gallery?uuid=34c54030-470a-46ed-96ab-2d042037875b" alt="">
-                <div>
-                    <p class="group_title">Deyu Meng(孟德宇)</p>
+            <div class="group_member">
+                <img class="group_memeber-pic" src="/image/image_gallery?uuid=34c54030-470a-46ed-96ab-2d042037875b&amp;groupId=13931&amp;t=1427267460495">
+                <div class="group_member-info">
+                    <p class="group_member-name">Deyu Meng(孟德宇)</p>
                     <p><b>Position:</b>Group leader, Ph.D., Professor</p>
                     <p><b>Research Interesting:</b>Machine learning, Computer vision, Data mining, Multimedia analysis
                     </p>
@@ -22,10 +77,10 @@
         </li>
 
         <li>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p class="group_title">Deyu Meng(孟德宇)</p>
+            <div class="group_member">
+                <img class="group_memeber-pic" src="/image/image_gallery?uuid=34c54030-470a-46ed-96ab-2d042037875b&amp;groupId=13931&amp;t=1427267460495">
+                <div class="group_member-info">
+                    <p class="group_member-name">Deyu Meng(孟德宇)</p>
                     <p><b>Position:</b>Group leader, Ph.D., Professor</p>
                     <p><b>Research Interesting:</b>Machine learning, Computer vision, Data mining, Multimedia analysis
                     </p>
